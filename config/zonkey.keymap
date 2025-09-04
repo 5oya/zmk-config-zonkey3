@@ -60,9 +60,7 @@
 &kp GRAVE       &kp LEFT_WIN  &kp ESCAPE  &lt 3 LEFT_ALT  &lt 2 LEFT_COMMAND  &kp LCTRL                        &kp SPACE  &kp ENTER                                     &kp APOSTROPHE
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_1 {
