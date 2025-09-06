@@ -88,10 +88,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp N1          &kp N2        &kp N3          &kp N4              &kp N5                                    &kp N6     &kp N7                   &kp N8          &kp N9          &kp N0
-&kp TAB         &trans        &trans          &trans              &trans            &trans          &trans  &trans     &trans                   &trans          &kp UP_ARROW    &trans
-&kp LEFT_SHIFT  &trans        &trans          &trans              &trans            &trans          &trans  &trans     &trans                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LCTRL       &lt 3 ESCAPE  &lt 2 LEFT_ALT  &lt 1 LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT            &kp ENTER  &mt RIGHT_CONTROL SPACE                                                   &kp DEL
+&kp N1          &kp N2        &kp N3          &kp N4              &kp N5                                    &kp N6             &kp N7                   &kp N8                  &kp N9                   &kp N0
+&kp TAB         &trans        &trans          &trans              &trans            &trans          &trans  &trans             &kp LA(LC(J))            &trans                  &kp LA(LC(L))            &trans
+&kp LEFT_SHIFT  &trans        &trans          &trans              &trans            &trans          &trans  &trans             &trans                   &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &kp RIGHT_ARROW
+&kp LCTRL       &lt 3 ESCAPE  &lt 2 LEFT_ALT  &lt 1 LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT            &kp LC(LA(ENTER))  &mt RIGHT_CONTROL SPACE                                                                    &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
