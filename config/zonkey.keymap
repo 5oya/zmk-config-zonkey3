@@ -72,9 +72,9 @@
 
             bindings = <
 &kp ESCAPE      &kp GRAVE  &kp LC(E)     &trans          &trans                                          &trans                   &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP    &kp LC(P)
-&kp LC(A)       &kp LC(S)  &kp LC(D)     &kp LC(F)       &trans              &trans              &trans  &kp LC(H)                &kp LEFT_BRACKET   &kp LC(K)         &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp LEFT_SHIFT  &trans     &trans        &trans          &trans              &kp LC(B)           &trans  &kp LC(N)                &trans             &kp MINUS         &kp EQUAL          &trans
-&mt LCTL ESC    &trans     &lt 3 ESCAPE  &lt 2 LEFT_ALT  &lt 1 LEFT_CONTROL  &kp LEFT_COMMAND            &mt RIGHT_CONTROL SPACE  &kp ENTER                                                              &kp DEL
+&kp LC(A)       &kp LC(S)  &kp LC(D)     &kp LC(F)       &trans              &trans              &trans  &kp LC(H)                &kp LEFT_BRACKET   &kp LC(K)         &kp RIGHT_BRACKET  &kp APOSTROPHE
+&kp LEFT_SHIFT  &trans     &trans        &trans          &trans              &kp LC(B)           &trans  &kp LC(N)                &trans             &kp MINUS         &kp EQUAL          &kp BACKSLASH
+&mt LCTL ESC    &trans     &lt 3 ESCAPE  &lt 2 LEFT_ALT  &lt 1 LEFT_CONTROL  &kp LEFT_COMMAND            &mt RIGHT_CONTROL SPACE  &kp ENTER                                                               &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
