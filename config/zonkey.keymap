@@ -57,7 +57,7 @@
 &kp Q               &kp W   &kp E         &kp R           &kp T                                        &kp Y      &kp U                    &kp I      &kp O    &kp P
 &mt LEFT_CONTROL A  &kp S   &kp D         &kp F           &kp G             &kp K_STOP      &kp MINUS  &kp H      &kp J                    &kp K      &kp L    &kp APOSTROPHE
 &kp LEFT_SHIFT      &kp Z   &kp X         &lt 6 C         &lt 5 V           &lt 4 B         &kp TAB    &kp N      &kp M                    &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_ALT        &trans  &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE               &kp ENTER  &mt RIGHT_CONTROL SPACE                                      &kp BACKSPACE
+&kp LEFT_ALT        &trans  &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE               &kp ENTER  &mt RIGHT_COMMAND SPACE                                      &kp BACKSPACE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -74,7 +74,7 @@
 &kp GRAVE       &kp EXCLAMATION  &kp LC(E)     &trans          &trans                                    &trans     &trans                   &kp MINUS           &kp EQUAL  &kp BACKSLASH
 &trans          &trans           &trans        &trans          &trans            &trans          &trans  &trans     &kp LEFT_BRACKET         &kp RIGHT_BRACKET   &trans     &kp SEMICOLON
 &kp LEFT_SHIFT  &trans           &trans        &trans          &trans            &trans          &trans  &trans     &trans                   &kp RG(LEFT_ARROW)  &trans     &kp RG(RIGHT_ARROW)
-&kp LEFT_ALT    &trans           &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE            &kp ENTER  &mt RIGHT_CONTROL SPACE                                                      &kp DEL
+&kp LEFT_ALT    &trans           &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE            &kp ENTER  &mt RIGHT_COMMAND SPACE                                                      &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -91,7 +91,7 @@
 &kp N1          &kp N2  &kp N3        &kp N4          &kp N5                                    &kp N6             &kp N7                   &kp N8                  &kp N9            &kp N0
 &trans          &trans  &trans        &trans          &trans            &trans          &trans  &trans             &kp LA(LC(J))            &kp LA(LC(K))           &kp LA(LC(L))     &kp LA(LC(UP_ARROW))
 &kp LEFT_SHIFT  &trans  &trans        &trans          &trans            &trans          &trans  &trans             &trans                   &kp LA(LC(LEFT_ARROW))  &kp LA(LC(DOWN))  &kp LA(LC(RIGHT))
-&kp LEFT_ALT    &trans  &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE            &kp RA(RC(ENTER))  &mt RIGHT_CONTROL SPACE                                                                  &kp DEL
+&kp LEFT_ALT    &trans  &lt 3 ESCAPE  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 ESCAPE            &kp RA(RC(ENTER))  &mt RIGHT_COMMAND SPACE                                                                  &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
