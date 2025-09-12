@@ -57,7 +57,7 @@
 &kp Q               &kp W    &kp E    &kp R               &kp T                                                   &kp Y      &kp U      &kp I      &kp O    &kp P
 &mt LEFT_CONTROL A  &kp S    &kp D    &kp F               &kp G         &kp K_STOP          &kp SEMICOLON         &kp H      &kp J      &kp K      &kp L    &kp APOSTROPHE
 &kp LEFT_SHIFT      &kp Z    &kp X    &lt 6 C             &lt 5 V       &lt 4 B             &kp NON_US_BACKSLASH  &kp N      &kp M      &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB             &lt 3 A  &lt 2 A  &lt 1 LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND                          &kp SPACE  &kp ENTER                                      &kp ESCAPE
+&kp TAB             &lt 3 A  &lt 2 A  &lt 1 LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND                          &kp ENTER  &kp SPACE                                      &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
